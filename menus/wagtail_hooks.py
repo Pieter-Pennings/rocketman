@@ -11,17 +11,3 @@ class MenuAdmin(ModelAdmin):
     menu_order = 200
     add_to_settings_menu = False
     exclude_from_explorer = False
-
-
-
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "rocketman",
-        "USER": "rocketman",
-        "PASSWORD": "xfHjB^F2p9s*zhqFT6cNx2",
-        "HOST": "localhost",
-        "PORT": "5432",
-    }
-}   
-

@@ -63,11 +63,7 @@ INSTALLED_APPS = [
 
     'widget_tweaks',
     'django_extensions',
-    
-    "accounts",
-    ]
-
-
+]
 
 MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
